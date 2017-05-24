@@ -1,0 +1,11 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  transition: all 0.25s;
+  color: _palette(text-secondary);
+  &:hover {
+    color: lighten(_palette(accent), 20%);
+  }
+}

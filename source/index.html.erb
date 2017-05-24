@@ -1,0 +1,67 @@
+<header class="section section--header">
+  <div class="section-inner-wrapper">
+    <a href="/">
+      <img src="/images/logo.png" alt="Desio dal Vivo" class="header-logo">
+    </a>
+    <div class="feature">
+      <h1 class="feature__title">Desio dal Vivo</h1>
+      <p class="feature__description">
+        La manifestazione gratuita che ogni anno unisce i cittadini nelle piazze.<br />
+        Scopri di seguito la mappa, il calendario e come contattarci!
+      </p>
+    </div>
+  </div>
+</header>
+
+<section class="section section--map">
+  <div class="section-inner-wrapper">
+    <div class="feature">
+      <h1 class="feature__title">Mappa degli eventi</h1>
+      <p class="feature__description">
+        Di seguito l'unibazione precisa di ogni singolo evento della manifestazione.
+      </p>
+    </div>
+
+    <div id="map"></div>
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoib2xpc3RpayIsImEiOiJjaW03a2lvd2MwMDBsdzhtNTZzeG9pYzFsIn0.EnuMVTEKyFfJN6XZhtLmIA';
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://styles/mapbox/streets-v9', //stylesheet location
+      center: [-74.50, 40], // starting position
+      zoom: 9 // starting zoom
+    });
+    // disable map zoom when using scroll
+    map.scrollZoom.disable();
+    </script>
+
+  </div>
+</section>
+
+<section class="section section--calendar">
+  <div class="section-inner-wrapper">
+    <div class="feature">
+      <h1 class="feature__title">Calendario degli eventi</h1>
+      <p class="feature__description">
+        Di seguito il calendario che copre tutta l'estate 2017.
+      </p>
+    </div>
+    <ul class="tabs-container" data-tab-container>
+      <li class="tab"><a data-tab-id="events">Lista eventi</a></li>
+      <li class="tab"><a data-tab-id="areas">Aree tematiche</a></li>
+      <li class="tab"><a data-tab-id="parkings">Parcheggio</a></li>
+    </ul>
+
+    <div class="tab-contents" data-tab-contents>
+      <section class="tab-content active tab-content--events" data-tab-id="events">
+        <h1>Lista eventi</h1>
+      </section>
+      <section class="tab-content tab-content--areas" data-tab-id="areas">
+        <h1>Aree tematiche</h1>
+      </section>
+      <section class="tab-content tab-content--parkings" data-tab-id="parkings">
+        <h1>Parcheggi</h1>
+      </section>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+$palette: (
+  accent: #FEC208,
+  bg-primary: #FEC208,
+  bg-secondary: #4A4A4A,
+  text-primary: #534741,
+  text-secondary: #FEFEFE,
+  tab-bg: #35ACE0,
+  tab-bg-active: #1373B9,
+  tab-bg-hover: #A6E9FF,
+  tab-text-hover: #211C65,
+  tab-text: #FEFEFE,
+);
+
+@function _palette($color) {
+  @return map_get($palette, $color);
+}

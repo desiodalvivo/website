@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <%= partial "/partials/head" %>
+  </head>
+  <body>
+    <%= yield %>
+    <footer class="footer">
+      <div class="contacts">
+        Contatti<br />
+        <small>
+          Sviluppato con <span class="heart">♥</span> da<br />
+          <a href="http://comune.desio.mb.it" target="_blank">Comune di Desio</a>, <a href="http://www.melarido.it/" target="_blank">MELARIDO</a> &amp; <a href="https://olisti.co">@olistik</a>
+          <br />
+          Licenza <a href="https://www.gnu.org/licenses/agpl.html" target="_blank">AGPLv3</a>
+        </small>
+      </div>
+
+      <div class="badges">
+        <ul>
+          <li>
+            <a href="https://www.netlify.com" class="footer-badge" title="Deploys by Netlify" target="_BLANK">
+              <img src="/images/netlify-dark.svg" height="37px">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/desiodalvivo/website" class="footer-badge" title="Source code on GitHub" target="_BLANK">
+              <img src="/images/github.png" height="37px">
+            </a>
+          </li>
+          <li>
+            <a href="https://middlemanapp.com" class="footer-badge" title="Static site generated with Middleman" target="_BLANK">
+              <img src="/images/middleman.svg" height="37px">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <%= javascript_include_tag :application %>
+  </body>
+</html>
