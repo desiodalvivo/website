@@ -1,3 +1,9 @@
+<script>
+  window.configurationData = {
+    markerImageFilenames: <%= JSON.generate(marker_image_filenames) %>,
+  };
+</script>
+
 <header class="section section--header">
   <div class="section-inner-wrapper">
     <a href="/">
@@ -18,22 +24,10 @@
     <div class="feature">
       <h1 class="feature__title">Mappa degli eventi</h1>
       <p class="feature__description">
-        Di seguito l'unibazione precisa di ogni singolo evento della manifestazione.
+        Di seguito l'ubicazione precisa di ogni singolo evento della manifestazione.
       </p>
     </div>
 
-    <div id="map"></div>
-    <script>
-    mapboxgl.accessToken = 'pk.eyJ1Ijoib2xpc3RpayIsImEiOiJjaW03a2lvd2MwMDBsdzhtNTZzeG9pYzFsIn0.EnuMVTEKyFfJN6XZhtLmIA';
-    var map = new mapboxgl.Map({
-      container: 'map', // container id
-      style: 'mapbox://styles/mapbox/streets-v9', //stylesheet location
-      center: [-74.50, 40], // starting position
-      zoom: 9 // starting zoom
-    });
-    // disable map zoom when using scroll
-    map.scrollZoom.disable();
-    </script>
 
   </div>
 </section>

@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Area Dance",
+    "position": "45.618082, 9.204736",
+    "name": "dance"
+  },
+  {
+    "label": "Area Fantasy",
+    "position": "45.617125, 9.205400",
+    "name": "fantasy"
+  },
+  {
+    "label": "Area Fashion",
+    "position": "45.618123, 9.207621",
+    "name": "fashion"
+  },
+  {
+    "label": "Area Live",
+    "position": "45.617226, 9.207426",
+    "name": "live"
+  },
+  {
+    "label": "Area Street Art",
+    "position": "45.616498, 9.206852",
+    "name": "street-art"
+  },
+  {
+    "label": "Area Radiocult",
+    "position": "45.615792, 9.206592",
+    "name": "radio"
+  },
+  {
+    "label": "Area Sport",
+    "position": "45.615274, 9.206400",
+    "name": "sport"
+  },
+  {
+    "label": "Area Bambini",
+    "position": "45.612795, 9.205298",
+    "name": "bimbi"
+  },
+  {
+    "label": "Temporary Shop & Food",
+    "position": "45.616842, 9.208801",
+    "name": "food"
+  },
+  {
+    "label": "Area sosPesa",
+    "position": "45.617070, 9.211681",
+    "name": "sospesa"
+  },
+  {
+    "label": "Villa Tittoni",
+    "position": "45.617094, 9.215466",
+    "name": "tittoni"
+  },
+  {
+    "label": "Ul Puntel",
+    "position": "45.618502, 9.219780",
+    "name": "ul-puntel"
+  }
+]
