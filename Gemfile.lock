@@ -30,7 +30,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.18)
+    ffi (1.9.25)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -119,6 +119,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (~> 1.9.24)
   middleman (~> 4.2)
   middleman-livereload
   middleman-sprockets
