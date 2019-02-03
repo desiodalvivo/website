@@ -125,7 +125,7 @@ DEPENDENCIES
   sprockets-es6
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.6.0p0
 
 BUNDLED WITH
-   1.14.6
+   1.17.2
