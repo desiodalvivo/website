@@ -93,7 +93,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.11.1)
     public_suffix (2.0.5)
-    rack (2.0.8)
+    rack (2.1.4)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.9.8)
@@ -125,7 +125,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-livereload
   middleman-sprockets
-  rack (~> 2.0.8)
+  rack (~> 2.1.4)
   sprockets (~> 3.7.2)
   sprockets-es6
 
